@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript</title>
+</head>
+<body>
+
+    <h1>Pengenalan JavaScript</h1>
+    <p id="pesan">Konten awal.</p>
+
+    <hr>
+
+    <h3>Cek Bilangan Genap atau Ganjil</h3>
+    <input type="number" id="bilangan" step="1" placeholder="Masukkan bilangan">
+    <button onclick="cekBilangan()">Periksa</button>
+    <p id="hasilBilangan"></p>
+
+    <hr>
+
+    <h3>Ubah Warna Halaman</h3>
+    <button onclick="ubahWarnaLatar('lightgreen')">Latar Hijau</button>
+    <button onclick="ubahWarnaLatar('white')">Latar Putih</button>
+    <button onclick="ubahWarnaLatar('lightyellow')">Latar Kuning</button>
+
+    <hr>
+
+    <h3>Daftar Menu Makanan</h3>
+    <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng - Rp5.000</label><br>
+    <label><input type="checkbox" class="menu" value="500"> Tempe - Rp500</label><br>
+    <label><input type="checkbox" class="menu" value="2500"> Telur Dadar - Rp2.500</label><br>
+    <label><input type="checkbox" class="menu" value="3000"> Es Teh - Rp3.000</label><br>
+    <label><input type="checkbox" class="menu" value="4000"> Jus Jeruk - Rp4.000</label><br>
+    <p>Total: Rp<span id="total">0</span></p>
+
+    <hr>
+
+    <h3>Validasi Nama</h3>
+    <form id="formNama">
+        <input type="text" id="nama" placeholder="Masukkan nama">
+        <button type="submit">Kirim</button>
+    </form>
+
+    <hr>
+
+    <h3>Sembunyikan atau Tampilkan Pesan</h3>
+    <p id="pesanTambahan">Ini adalah pesan JavaScript.</p>
+    <button onclick="togglePesan()">Sembunyikan / Tampilkan</button>
+
+    <hr>
+
+    <h3>Eksperimen Mandiri</h3>
+    <button onclick="operasiDuaBilangan()">Operasi Dua Bilangan</button>
+    <button onclick="tabelPerkalian()">Tabel Perkalian 7</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

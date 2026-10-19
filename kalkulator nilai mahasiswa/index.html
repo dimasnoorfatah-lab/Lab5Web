@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Kalkulator Nilai Mahasiswa</title>
+</head>
+<body>
+    <h2>Kalkulator Nilai Mahasiswa</h2>
+
+    <form id="formNilai">
+        Nilai Tugas:
+        <input type="number" id="tugas" min="0" max="100" required>
+        <br><br>
+
+        Nilai UTS:
+        <input type="number" id="uts" min="0" max="100" required>
+        <br><br>
+
+        Nilai UAS:
+        <input type="number" id="uas" min="0" max="100" required>
+        <br><br>
+
+        <button type="submit">Hitung</button>
+    </form>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
